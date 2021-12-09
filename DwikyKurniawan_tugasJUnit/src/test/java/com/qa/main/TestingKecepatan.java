@@ -38,7 +38,7 @@ public class TestingKecepatan {
 			String jawab = data[2];
 			System.out.println(jarak + waktu);
 
-			assertEquals(Double.parseDouble(jawab), function.hitungKecepatan(Double.parseDouble(jarak), Double.parseDouble(waktu)),0.0000000000000000000000000000000000);
+			assertEquals(Double.parseDouble(jawab), function.hitungKecepatan(Double.parseDouble(jarak), Double.parseDouble(waktu)),0.00001);
 		}
 	}
 	
